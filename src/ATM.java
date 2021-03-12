@@ -55,6 +55,11 @@ public class ATM {
 		return authUser;
 	}
 	
+	/**
+	 * 
+	 * @param theUser
+	 * @param sc
+	 */
 	public static void printUserMenu(User theUser, Scanner sc) {
 		
 		theUser.printAccountsSummary();
