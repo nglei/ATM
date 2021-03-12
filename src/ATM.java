@@ -108,6 +108,11 @@ public class ATM {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param theUser
+	 * @param sc
+	 */
 	public static void showTransHistory(User theUser, Scanner sc) {
 		
 		int theAcct;
